@@ -1,0 +1,24 @@
+/* variaveis
+sao nomes simbolicos para receber algum valores
+
+** Scope determina a visibilidade de alguma variável no JS
+
+
+#Block Statement( declaração de bloco )
+```JS
+*/
+{// aqui dentro é um bloco  e posso colocar qualquer código
+
+
+}    // aqui fechamos o Bloco
+    // const e let  São locais e só funcionam no escopo onde foi criada
+    let y = 1;
+
+    <script>
+        let y = 1;
+        {
+            y = 0
+            console.log(`> existe y `)
+        }
+        console.log(`> existe y depois do bloco?`, y)
+    </script>
